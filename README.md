@@ -152,6 +152,8 @@ save_biblio("refs.bib", "biblio_preprints_oldest.txt",
             order_by="preprint_date", reverse=True, compact=False)
 ```
 
+* For a walkthrough, see the Jupyter notebook [`Examples/Examples.ipynb`](Examples/Examples.ipynb).
+
 ---
 
 ## Troubleshooting
