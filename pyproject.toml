@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BiblioGrant"
+version = "0.1.0"
+description = "Turn a BibTeX .bib file into grant-friendly plain-text bibliographies."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "William Giare" }]
+dependencies = ["bibtexparser>=1.4"]
+
+[project.scripts]
+biblio-grant = "BiblioGrant.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["BiblioGrant*"]
+
