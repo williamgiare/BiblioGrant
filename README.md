@@ -148,23 +148,6 @@ save_biblio("refs.bib", "biblio_preprints_oldest.txt",
 
 ---
 
-## Project structure
-
-```
-BiblioGrant/
-├─ BiblioGrant/
-│  ├─ __init__.py    # library API (print_biblio, save_biblio, helpers)
-│  └─ __main__.py    # CLI entrypoint (python -m BiblioGrant)
-├─ examples/
-│  ├─ BiblioGrant_Example.ipynb
-│  └─ refs_example.bib
-├─ README.md
-├─ pyproject.toml     # (optional) metadata; enables `pip install -e .`
-└─ LICENSE
-```
-
----
-
 ## Troubleshooting
 
 * **Strange LaTeX left in output** → only common macros are handled; add more mappings if needed.
