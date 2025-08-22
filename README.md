@@ -28,7 +28,7 @@ pip install bibtexparser
 ### Use directly from the repo (recommended)
 
 ```
-git clone <your-repo-url>
+git clone <this-repo-url>
 cd BiblioGrant
 pip install -e .
 ```
