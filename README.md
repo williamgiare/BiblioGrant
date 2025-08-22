@@ -1,5 +1,11 @@
 # BiblioGrant
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Repo Status](https://img.shields.io/badge/repo-public-brightgreen)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+
+---
+
 **BiblioGrant** turns a BibTeX `.bib` file into a clean, grant-friendly **plain-text** bibliography.
 Works as both a **Python package** (`import BiblioGrant`) and a **CLI** (`python -m BiblioGrant`).
 
