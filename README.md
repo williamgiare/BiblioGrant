@@ -25,7 +25,7 @@ Works as both a **Python package** (`import BiblioGrant`) and a **CLI** (`python
 pip install bibtexparser
 ```
 
-### Use directly from the repo (recommended)
+### Use directly from the repo
 
 ```
 git clone <this-repo-url>
